@@ -125,11 +125,11 @@ function watch() {
       baseDir: path.clean
     }
   });
-  gulp.watch(path.src.html, html, browserSync.reload);
-  gulp.watch(path.src.styles, styles);
-  gulp.watch(path.src.js, scripts);
-  gulp.watch(path.src.img, images);
-  gulp.watch(path.src.fonts, fonts);
+  gulp.watch(path.watch.html, html, browserSync.reload);
+  gulp.watch(path.watch.styles, styles);
+  gulp.watch(path.watch.js, scripts);
+  gulp.watch(path.watch.img, images);
+  gulp.watch(path.watch.fonts, fonts);
 }
 
 
